@@ -43,6 +43,9 @@ of other UNIX targets. The simple steps to build QEMU are:
 https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/
 
 ```
+wget https://raw.githubusercontent.com/c4pt000/kernel-6.8.2-expSEHDsec-HAXM-cgroupvirtio/master/patch-libvirt-IPTABLES-NFTABLES-UFW.sh
+chmod +x patch-libvirt-IPTABLES-NFTABLES-UFW.sh
+./patch-libvirt-IPTABLES-NFTABLES-UFW.sh
 sudo yum install virt-manager -y
 sudo dnf install @virtualization -y
 sudo systemctl start libvirtd
