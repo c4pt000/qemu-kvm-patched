@@ -64,6 +64,8 @@ pfsense 2.7.2 iso release amd64
 
 PfSense 2.7.2 KVM settings
 
+# Freebsd 14.0 machine type (x86_64) with virt-manager
+
 ![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/KVM-pfsense-2.7.2.png)
 
 
