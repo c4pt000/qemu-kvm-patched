@@ -58,6 +58,15 @@ of other UNIX targets. The simple steps to build QEMU are:
 PfSense WIFI with qemu+KVM
 ==========================
 
+pfsense 2.7.2 iso release amd64
+
+* https://sgpfiles.netgate.com/mirror/downloads/pfSense-CE-2.7.2-RELEASE-amd64.iso.gz
+
+PfSense 2.7.2 KVM settings
+
+![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/KVM-pfsense-2.7.2.png)
+
+
 Dlink DWA-556 802.11n best support with pfsense 2.7.2
 
  ![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/dwa-556.png)
