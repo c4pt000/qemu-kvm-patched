@@ -68,7 +68,6 @@ PfSense WIFI with qemu+KVM
 ==========================
 
 Dlink DWA-556 802.11n best support
-![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/Screenshot_20240502-023049.2.png)
  
 
 
