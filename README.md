@@ -104,6 +104,11 @@ Dlink DWA-556 802.11n best support with pfsense 2.7.2
 
  ![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/dwa-556.png)
 
+ Wired ethernet 2 ports
+
+ Intel EXPI9402PTBLK-1PK PRO/1000 PF Dual Port Server Adapter 10/100/1000Mbps PCI-Express 2 x RJ45
+
+
 # list of supported wifi on pfsense 2.7.2 (fbsd 14.0)      
 
 # https://docs.netgate.com/pfsense/en/latest/wireless/hardware.html
