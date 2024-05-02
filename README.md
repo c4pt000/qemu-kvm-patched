@@ -1,6 +1,5 @@
-===========
-QEMU README
-===========
+# QEMU README
+
 
 QEMU is a generic and open source machine & userspace emulator and
 virtualizer.
@@ -34,8 +33,7 @@ version 2. For full licensing details, consult the LICENSE file.
 
 
 
-Building Fedora 39
-==================
+# Building on Fedora 39
 
 QEMU is multi-platform software intended to be buildable on all modern
 Linux platforms, OS-X, Win32 (via the Mingw64 toolchain) and a variety
