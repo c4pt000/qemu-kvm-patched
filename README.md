@@ -50,6 +50,10 @@ sudo systemctl enable libvirtd
 sudo virt-manager 
 ```
 
+# Patching qemu-system-x86_64 to allow legacy cards with multiple msi-x vectors and faulty rom-bars to passthrough as a card for a guest machine
+
+https://patchwork.kernel.org/project/qemu-devel/patch/099db937-3fa3-465e-9a23-a900df9adb7c@default/
+
 ```
 
   sudo -i
