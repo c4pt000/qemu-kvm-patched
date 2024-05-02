@@ -50,7 +50,7 @@ Linux platforms, OS-X, Win32 (via the Mingw64 toolchain) and a variety
 of other UNIX targets. The simple steps to build QEMU are:
 
 
-.. code-block:: shell
+```
 
   sudo -i
   yum install dnf-utils cmake git -y
@@ -63,6 +63,7 @@ of other UNIX targets. The simple steps to build QEMU are:
   ../configure --prefix=/usr
   make -j24
   make -j24 install
+```
 
 PfSense WIFI with qemu+KVM
 ==========================
