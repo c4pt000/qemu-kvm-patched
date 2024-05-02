@@ -6,7 +6,7 @@
 
 # problems with multiple msi-x vectors and legacy rom-bars with QEMU+KVM
 ```
- failed to add PCI capability table & pba overlap, or they don’t fit in BARs, or don’t align```
+ failed to add PCI capability table & pba overlap, or they don’t fit in BARs, or don’t align
 ```
 # QEMU README
 
