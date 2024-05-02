@@ -2,7 +2,7 @@
 # QEMU patched for msi-x multiple vectors and legacy rom-bars that wont allow cards to pass through
 
 * .......to build a pfSense 2.7.2 QEMU+KVM guest as a hardware firewall + wifi router access point (as an example)
-
+* .......or for building a QEMU+KVM hardware NAS using pci-e NVME SSD's (where some NVME cards have legacy rom-bars and multiple msi-x vectors)
 
 # QEMU README
 
