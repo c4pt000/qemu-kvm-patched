@@ -51,6 +51,7 @@ of other UNIX targets. The simple steps to build QEMU are:
 
 
 .. code-block:: shell
+
 sudo -i
 yum install dnf-utils -y
 yum-builddep qemu -y
