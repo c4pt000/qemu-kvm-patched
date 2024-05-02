@@ -41,25 +41,6 @@ current development version that is available at
 folder in the source tree, and is built by `Sphinx
 <https://www.sphinx-doc.org/en/master/>`_.
 
-Building
-========
-
-QEMU is multi-platform software intended to be buildable on all modern
-Linux platforms, OS-X, Win32 (via the Mingw64 toolchain) and a variety
-of other UNIX targets. The simple steps to build QEMU are:
-
-
-.. code-block:: shell
-
-  sudo -i
-  yum install dnf-utils -y
-  yum-builddep qemu -y
-  yum groupinstall "C Development Tools and Libraries" -y
-  mkdir build
-  cd build
-  ../configure
-  make
-
 
 Building Fedora 39
 ==================
@@ -71,12 +52,19 @@ of other UNIX targets. The simple steps to build QEMU are:
 
 .. code-block:: shell
 
-
+  sudo -i
+  yum install dnf-utils cmake -y
+  yum-builddep qemu -y
+  yum groupinstall "C Development Tools and Libraries" -y
   mkdir build
   cd build
   ../configure --prefix=/usr
   make -j24
-make -j24 install
+  make -j24 install
+
+
+
+
 
 Additional information can also be found online via the QEMU website:
 
