@@ -87,6 +87,8 @@ PfSense 2.7.2 KVM settings
 
 ![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/KVM-pfsense-2.7.2.png)
 
+![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/qemu-pfsense.png)
+
 
 Dlink DWA-556 802.11n best support with pfsense 2.7.2
 
