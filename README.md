@@ -1,3 +1,9 @@
+
+# QEMU patched for msi-x multiple vectors and faulty rom-bars that wont allow cards to pass through
+
+* .......for pfSense 2.7.2 QEMU+KVM as a hardware firewall + wifi router access point
+
+
 # QEMU README
 
 
