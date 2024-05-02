@@ -4,6 +4,10 @@
 * .......to build a pfSense 2.7.2 QEMU+KVM guest as a hardware firewall + wifi router access point (as an example)
 * .......or for building a QEMU+KVM hardware NAS using pci-e NVME SSD's (where some NVME cards have legacy rom-bars and multiple msi-x vectors)
 
+# problems with multiple msi-x vectors and legacy rom-bars with QEMU+KVM
+```
+ failed to add PCI capability table & pba overlap, or they don’t fit in BARs, or don’t align```
+```
 # QEMU README
 
 
