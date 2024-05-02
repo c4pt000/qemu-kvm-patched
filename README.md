@@ -1,1 +1,0 @@
-# qemu-kvm-patched
