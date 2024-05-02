@@ -100,9 +100,14 @@ Dlink DWA-556 802.11n best support with pfsense 2.7.2
 
  ![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/dwa-556.png)
 
-# list of supported wifi on pfsense 2.7.2 (fbsd 14.0)      (no 802.11ac at all)
+# list of supported wifi on pfsense 2.7.2 (fbsd 14.0)      
+
 # https://docs.netgate.com/pfsense/en/latest/wireless/hardware.html
 
+```
+Status of 802.11ac Support
+Currently, there is no support for 802.11ac in FreeBSD nor in pfSense software. Development on FreeBSD can be tracked by checking the FreeBSD Wiki Article for 802.11ac Support.
+```
 
 
 Additional information can also be found online via the QEMU website:
