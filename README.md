@@ -53,7 +53,9 @@ sudo systemctl enable libvirtd
 sudo virt-manager 
 ```
 
-# Patching qemu-system-x86_64 to allow legacy cards with multiple msi-x vectors and faulty rom-bars to passthrough as a card for a guest machine
+# Patching qemu-system-x86_64 to allow legacy cards (like pci-e NVME ssd's and legacy wifi cards) with multiple msi-x vectors and faulty rom-bars to passthrough as a card for a guest machine
+
+https://forum.level1techs.com/t/vm-wont-start-with-nvme-device-passed-through/137486/6
 
 https://patchwork.kernel.org/project/qemu-devel/patch/099db937-3fa3-465e-9a23-a900df9adb7c@default/
 
