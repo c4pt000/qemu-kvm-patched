@@ -107,7 +107,8 @@ Dlink DWA-556 802.11n best support with pfsense 2.7.2
  Wired ethernet 2 ports
 
  Intel EXPI9402PTBLK-1PK PRO/1000 PF Dual Port Server Adapter 10/100/1000Mbps PCI-Express 2 x RJ45
-
+ (one port connects to your router/modem the other port connects back to the built-in machine ethernet port as a loop-back pfSense as a guest filters the internet traffic going back to the host to the protect the host )
+ 
  ![s1](https://c1.neweggimages.com/ProductImage/33-106-077-02.jpg)
 
 
