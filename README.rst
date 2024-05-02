@@ -53,9 +53,11 @@ of other UNIX targets. The simple steps to build QEMU are:
 .. code-block:: shell
 
   sudo -i
-  yum install dnf-utils cmake -y
+  yum install dnf-utils cmake git -y
   yum-builddep qemu -y
   yum groupinstall "C Development Tools and Libraries" -y
+  git clone https://github.com/c4pt000/qemu-kvm-patched
+  cd qemu-kvm-patched
   mkdir build
   cd build
   ../configure --prefix=/usr
