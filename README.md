@@ -84,7 +84,7 @@ https://patchwork.kernel.org/project/qemu-devel/patch/099db937-3fa3-465e-9a23-a9
   make -j24 install
 ```
 
-PfSense WIFI with qemu+KVM
+PfSense with qemu+KVM
 ==========================
 
 pfsense 2.7.2 iso release amd64
