@@ -40,6 +40,16 @@ Linux platforms, OS-X, Win32 (via the Mingw64 toolchain) and a variety
 of other UNIX targets. The simple steps to build QEMU are:
 
 
+https://docs.fedoraproject.org/en-US/quick-docs/virtualization-getting-started/
+
+```
+sudo yum install virt-manager -y
+sudo dnf install @virtualization -y
+sudo systemctl start libvirtd
+sudo systemctl enable libvirtd
+sudo virt-manager 
+```
+
 ```
 
   sudo -i
