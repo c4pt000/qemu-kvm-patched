@@ -100,6 +100,8 @@ Dlink DWA-556 802.11n best support with pfsense 2.7.2
 
  ![s1](https://github.com/c4pt000/qemu-kvm-patched/releases/download/pfsense-images/dwa-556.png)
 
+# list of supported wifi on pfsense 2.7.2 (fbsd 14.0)      (no 802.11ac at all)
+# https://docs.netgate.com/pfsense/en/latest/wireless/hardware.html
 
 
 
