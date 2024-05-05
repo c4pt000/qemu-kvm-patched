@@ -79,7 +79,7 @@ https://patchwork.kernel.org/project/qemu-devel/patch/099db937-3fa3-465e-9a23-a9
   cd qemu-kvm-patched
   mkdir build
   cd build
-  ../configure --prefix=/usr
+  ../configure --prefix=/usr --enable-user
   make -j24
   make -j24 install
 ```
