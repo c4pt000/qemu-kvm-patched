@@ -81,10 +81,8 @@ https://patchwork.kernel.org/project/qemu-devel/patch/099db937-3fa3-465e-9a23-a9
   cd build
   ../configure --prefix=/usr --enable-user
   make -j24
-  make -j24 install
-  mv /usr/bin/qemu-system-x86_64 /usr/bin/qemu-system-x86_64-pfsense
+  cp -rf qemu-system-x86_64 /usr/bin/qemu-system-x86_64-pfsense
   "then adjust pfsense.xml machine to point to /usr/bin/qemu-system-x86_64-pfsense"
-  yum reinstall qemu-system-x86 qemu-system-x86-core
 ```
 
 PfSense with qemu+KVM
