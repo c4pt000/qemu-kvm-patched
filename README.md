@@ -70,6 +70,7 @@ https://forum.level1techs.com/t/vm-wont-start-with-nvme-device-passed-through/13
 https://patchwork.kernel.org/project/qemu-devel/patch/099db937-3fa3-465e-9a23-a900df9adb7c@default/
 
 ```
+make sure setenforce=0 or set an allow semanage policy for qemu
 
   sudo -i
   yum install dnf-utils cmake git -y
